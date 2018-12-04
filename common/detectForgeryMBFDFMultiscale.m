@@ -45,7 +45,7 @@ function maps = detectForgeryMBFDFMultiscale(filename, overlap, block_sizes, use
 %     of Malicious Tampering in Digital Images, IEEE Transactions on Image 
 %     Processing, Vol. 25, Issue 3, 2016
 % [2] P. Korus, Large-Scale and Fine-Grained Evaluation of Popular JPEG 
-%     Forgery Localization Schemes, arXiv
+%     Forgery Localization Schemes, arXiv:1811.12915, 2018
 %
 % -------------------------------------------------------------------------
 % Written by Paweł Korus while with SZU and AGH

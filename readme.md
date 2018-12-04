@@ -36,10 +36,10 @@ Use `setup` to automatically add dependencies to the Matlab's path. Then, run `m
 
 The detector uses SVM detection models pre-trained on the UCID dataset (1,338 color, uncompressed images, see [1] for training details). The models can be trained for specific JPEG quality levels (*quality-aware* training), or for a generic case (*quality-oblivious* training). The former case leads to better performance, but requires multiple models - for each supported quality level. See [3] for more information about the expected difference in performance between the two cases. 
 
-To limit repository size, this package includes pre-trained models for the *quality-oblivious* case only. Three window sizes are included: 32x32, 64x64 and 128x128 px. A full set of SVM models for 8 analysis windows and quality levels: 50, 51, ..., 100 can be downloaded from [here]() (1.4 GB).
+To limit repository size, this package includes pre-trained models for the *quality-oblivious* case only. Three window sizes are included: 32x32, 64x64 and 128x128 px. A full set of SVM models for 8 analysis windows and quality levels: 50, 51, ..., 100 can be downloaded from [here](http://kt.agh.edu.pl/~korus/files/mbfdf_pretrained_svm_models_20_modes_mat.tar.gz) (1.4 GB).
 
 ## References
 
 1. P. Korus and J. Huang, [Multi-Scale Fusion for Improved Localization of Malicious Tampering in Digital Images](http://dx.doi/10.1109/TIP.2016.2518870), IEEE Transactions on Image Processing, Vol. 25, Issue 3, 2016
 2. P. Korus and J. Huang, [Multi-scale Analysis Strategies in PRNU-based Tampering Localization](http://dx.doi.org/10.1109/TIFS.2016.2636089), IEEE Transactions on Information Forensics and Security, Vol. 12, Issue 4 , 2017
-3. P. Korus, [Large-Scale and Fine-Grained Evaluation of Popular JPEG Forgery Localization Scheme](http://dx.doi/10.1109/TIP.2016.2518870), arxiv
+3. P. Korus, [Large-Scale and Fine-Grained Evaluation of Popular JPEG Forgery Localization Scheme](https://arxiv.org/abs/1811.12915), arXiv:1811.12915, 2018
