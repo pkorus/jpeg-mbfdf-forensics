@@ -36,7 +36,7 @@ Use `setup` to automatically add dependencies to the Matlab's path. Then, run `m
 
 The detector uses SVM detection models pre-trained on the UCID dataset (1,338 color, uncompressed images, see [1] for training details). The models can be trained for specific JPEG quality levels (*quality-aware* training), or for a generic case (*quality-oblivious* training). The former case leads to better performance, but requires multiple models - for each supported quality level. See [3] for more information about the expected difference in performance between the two cases. 
 
-To limit repository size, this package includes pre-trained models for the *quality-oblivious* case only. Three window sizes are included: 32x32, 64x64 and 128x128 px. A full set of SVM models for 8 analysis windows and quality levels: 50, 51, ..., 100 can be downloaded from [here](http://kt.agh.edu.pl/~korus/files/mbfdf_pretrained_svm_models_20_modes_mat.tar.gz) (1.4 GB).
+To limit repository size, this package includes pre-trained models for the *quality-oblivious* case only. Three window sizes are included: 32x32, 64x64 and 128x128 px. A full set of SVM models for 8 analysis windows and quality levels: 50, 51, ..., 100 can be downloaded from [here](https://drive.google.com/file/d/1aJjrM0TkgGkvJgN78Xotu9ZueZthjt7L/view?usp=sharing) (1.4 GB).
 
 ## References
 
