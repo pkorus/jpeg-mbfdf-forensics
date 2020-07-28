@@ -40,6 +40,6 @@ To limit repository size, this package includes pre-trained models for the *qual
 
 ## References
 
-1. P. Korus and J. Huang, [Multi-Scale Fusion for Improved Localization of Malicious Tampering in Digital Images](http://dx.doi/10.1109/TIP.2016.2518870), IEEE Transactions on Image Processing, Vol. 25, Issue 3, 2016
+1. P. Korus and J. Huang, [Multi-Scale Fusion for Improved Localization of Malicious Tampering in Digital Images](http://dx.doi.org/10.1109/TIP.2016.2518870), IEEE Transactions on Image Processing, Vol. 25, Issue 3, 2016
 2. P. Korus and J. Huang, [Multi-scale Analysis Strategies in PRNU-based Tampering Localization](http://dx.doi.org/10.1109/TIFS.2016.2636089), IEEE Transactions on Information Forensics and Security, Vol. 12, Issue 4 , 2017
 3. P. Korus, [Large-Scale and Fine-Grained Evaluation of Popular JPEG Forgery Localization Scheme](https://arxiv.org/abs/1811.12915), arXiv:1811.12915, 2018
